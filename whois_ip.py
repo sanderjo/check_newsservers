@@ -1,5 +1,13 @@
-ipv4subnet = '94.232.116.0/24'
-ipv6subnet = '2001:67c:2564::/48'
+
+# news.usenetexpress.com has address 185.151.12.158
+# news.usenetexpress.com has address 185.151.12.132
+# news.usenetexpress.com has IPv6 address 2a07:8080:119:1fe::158
+# news.usenetexpress.com has IPv6 address 2a07:8080:119:1fe::132
+
+print("Go")
+
+ipv4subnet = '185.151.12.0/24'
+ipv6subnet = '2a07:8080:119:1fe::/48'
 # find whois owner of these subnets:
 # whois -h whois.ripe.net -- '-B -T inetnum -r
 # whois -h whois.ripe.net -- '-B -T inet6num -r
